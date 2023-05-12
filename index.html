@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Amigos e a Júlia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+
+<body>
+
+  <head>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand fonte-titulo cor-especial" href="#">Amigues</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Histórias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quem Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </head>
+
+  <main>
+
+    <section class="carrossel">
+      <div id="carouselExampleIndicators" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 imagem-carrosel" src="src/img/carrossel-img1.JPG" alt="First slide">
+            <div class="carousel-caption d-nome d-md-block h-50">
+              <h1 class="fonte-titulo display-4">Memórias inesquecíveis com pessoas inesquecíveis</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrosel" src="src/img/carrossel-img2.JPG" alt="Second slide">
+            <div class="carousel-caption d-nome d-md-block h-50">
+              <h1 class="fonte-titulo display-4">Sorrisos que nunca desvanecem</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imagem-carrosel" src="src/img/carrossel-img3.JPG" alt="Third slide">
+            <div class="carousel-caption d-nome d-md-block h-50">
+              <h1 class="fonte-titulo display-4">Laços de amizade que durarão para sempre</h1>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+</main>
+
+  <section id="titulo">
+
+      <h1 class="text-center fonte-titulo cor-especial pt-5">Contanto um Pouquinho Sobre os Meus Amigos</h1>
+      <p class="text-center text-secondary pb-5">Amigos de verdade não deixam amigos fazerem coisas idiotas...sozinhos!</p>
+    </section>
+
+    <section class="container-fluid bg-light" id="amigos">
+      <div class="row justify-content-center">
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="">
+        <img class="card-img-top card-posicao-imagem-rainanh" src="src/img/profile-rainanh.JPG" alt="imagem de perfil rainanh">
+          <div class="card-body">
+            <h5 class="card-title">Rainanh Geovany
+              <p>
+                <u>Full-Stack Developer</u>
+              </p>
+            </h5>
+            <p class="card-text">"Programadores são como mágicos, só que em vez de usar varinhas, usamos teclados e códigos para criar a ilusão de que sabemos o que estamos fazendo!"</p>
+            <a href="historia_rainanh.html" class="btn botao-cor-especial ">História</a>
+          </div>
+      </article>
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="" >
+        <img class="card-img-top card-posicao-imagem" src="src/img/profile-mariana.JPG" alt="imagem de perfil mariana">
+          <div class="card-body">
+            <h5 class="card-title">Mariana Braz
+              <p>
+                <u>Analista DBA</u>
+              </p>
+            </h5>
+            <p class="card-text">"Analista DBA é como um encanador: a gente conserta vazamentos de dados e impede que o sistema entupa!"</p>
+            <a href="#" class="btn botao-cor-especial ">História</a>
+          </div>
+      </article>
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="">
+        <img class="card-img-top card-posicao-imagem-julia" src="src/img/profile-julia.jpg" alt="imagem de pefil júlia">
+          <div class="card-body">
+            <h5 class="card-title">Júlia Lopes
+              <p>
+                <u>UX Design</u>
+              </p>
+            </h5>
+            <p class="card-text">"Eu queria ser programadora, mas parece que eu não tenho tempo para aprender a ser preguiçosa o suficiente."</p>
+            <a href="#" class="btn botao-cor-especial">História</a>
+          </div>
+      </article>
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="">
+        <img class="card-img-top card-posicao-imagem" src="src/img/profile-natalia.JPG" alt="imagem de perfil natália">
+          <div class="card-body">
+            <h5 class="card-title">Natália Almeida
+              <p>
+                <u>Front-End Developer</u>
+              </p>
+            </h5>
+            <p class="card-text">"Desenvolvedor front-end é igual cabelo, a gente passa horas arrumando, mas na hora de sair sempre parece que falta alguma coisa."</p>
+            <a href="#" class="btn botao-cor-especial ">História</a>
+          </div>
+      </article>
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="">
+        <img class="card-img-top card-posicao-imagem" src="src/img/profile-ana.JPG" alt="imagem de perfil ana">
+          <div class="card-body">
+            <h5 class="card-title">Ana Clara
+              <p>
+                <u>Back-End Developer</u>
+              </p>
+            </h5>
+            <p class="card-text">"Desenvolvedor back-end é igual encanador: a gente trabalha com a sujeira, mas é responsável por manter tudo funcionando!"</p>
+            <a href="#" class="btn botao-cor-especial ">História</a>
+          </div>
+      </article>
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="">
+        <img class="card-img-top card-posicao-imagem" src="src/img/profile-gabriel.JPG" alt="imagem de perfil gabriel">
+          <div class="card-body">
+            <h5 class="card-title">Gabriel Davila
+              <p>
+                <u>Game Developer</u>
+              </p>
+            </h5>
+            <p class="card-text">"Desenvolvedor de jogos é igual a um deus, só que em vez de criar mundos inteiros, passamos horas tentando fazer a grama parecer realista!"</p>
+            <a href="#" class="btn botao-cor-especial ">História</a>
+          </div>
+      </article>
+
+      <article class="card border-cor-especial card-largura p-0 m-4 col-12 col-md-3 col-lg-3" clcardass="" >
+        <img class="card-img-top card-posicao-imagem" src="src/img/profile-thalisson.JPG" alt="imagem de perfil thalisson">
+          <div class="card-body">
+            <h5 class="card-title">Thalisson Gabriel
+              <p>
+                <u>Mobile Developer</u>
+              </p>
+            </h5>
+            <p class="card-text">"Desenvolver para mobile é como criar um quebra-cabeça, mas sem a imagem na caixa para te ajudar a montar!"
+            </p>
+            <a href="#" class="btn botao-cor-especial ">História</a>
+          </div>
+      </article>
+
+     </div>
+  </section>
+
+</main>
+
+<footer class="bg-secondary p-3">
+  <p class="text-light m-0 text-center">contato: <a class="text-light" href="rainanhsantos@gmail.com">rainanhsantos@gmail.com</a></p>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <dialog class="modal-content">
+      <header class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Entre em Contato</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </header>
+
+      <main class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Nome Completo:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu Nome ">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Endereço de e-mail:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@examplo.com">
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Deixe seu Comentário:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1"
+            placeholder="Insira aqui Seu Comentário" rows="3"></textarea>
+          </div>
+        </form>
+      </main>
+      <footer class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn botao-cor-especial">Enviar</button>
+      </footer>
+    </dialog>
+  </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+.card-largura {
+    Max-width: 18rem;
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    height: 700px;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial {
+    color: darkred!important;
+}
+
+.botao-cor-especial {
+    background-color: darkred;
+    color: white;
+}
+
+.border-cor-especial {
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-posicao-imagem-julia {
+    object-fit: cover;
+    object-position: 0 0%;
+    height: 200px;
+}
+
+.card-posicao-imagem-rainanh {
+    object-fit: cover;
+    object-position: 0 0%;
+    height: 200px;
+}
